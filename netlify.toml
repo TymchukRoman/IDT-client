@@ -1,5 +1,9 @@
+[[redirects]]
+from = “/*”
+to = “/main”
+status = 200
+
 [[headers]]
-for = “/*”
+for = “/"
 [headers.values]
-Access-Control-Allow-Origin = “**”
-Authorization = “Bearer api-key”
+Access-Control-Allow-Origin = "”
