@@ -1,11 +1,12 @@
-"
-[[redirects]]
-from = “/*”
-to = “/main”
-status = 200
+[build]
+    publish = "build/"
+
+[[redirects]]   
+    from = “/”
+    to = “https://iqdauntest.herokuapp.com”
+    status = 200
 
 [[headers]]
-for = “/"
-[headers.values]
-Access-Control-Allow-Origin = "”
-"
+    for = “/"
+    [headers.values]
+    Access-Control-Allow-Origin = "”
