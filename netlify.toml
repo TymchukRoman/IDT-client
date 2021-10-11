@@ -1,4 +1,5 @@
 [build]
+functions = "funcs"
     publish = "build/"
 
 [[redirects]]   
